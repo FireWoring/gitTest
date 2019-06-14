@@ -17,4 +17,8 @@ public class OrderServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         super.doGet(req, resp);
     }
+
+    public void bug(){
+        System.out.println("修复bug...");
+    }
 }
